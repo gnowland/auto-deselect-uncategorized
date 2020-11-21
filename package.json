@@ -1,0 +1,37 @@
+{
+  "name": "auto-deselect-uncategorized",
+  "author": "gnowland",
+  "version": "1.0.0",
+  "description": "Automatically and visibly deselect the \"Uncategorized\" category (or your custom default post category) when another category is selected, and select it when no other categories are selected. Supports WordPress 5.0+ Block Editor (Gutenberg).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnowland/auto-deselect-uncategorized"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gnowland/auto-deselect-uncategorized/issues"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start --webpack--devtool=source-map"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "12.4.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-react": "^7.21.5",
+    "grunt": "^1.3.0",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jshint": "~3.0.0",
+    "grunt-contrib-uglify": "~5.0.0",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-newer": "~1.3.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-wp-i18n": "^1.0.3",
+    "grunt-wp-readme-to-markdown": "~2.0.1",
+    "ignore-emit-webpack-plugin": "^2.0.3",
+    "jshint-stylish": "~2.2.1",
+    "load-grunt-tasks": "~5.1.0"
+  }
+}

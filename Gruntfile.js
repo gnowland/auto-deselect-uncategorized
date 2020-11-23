@@ -10,34 +10,6 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        uglify: {
-          options: {
-            compress: {
-              global_defs: {
-                "EO_SCRIPT_DEBUG": false
-              },
-              dead_code: true
-            },
-            banner: '/*! <%= pkg.name %> <%= pkg.version %> */\n'
-          },
-          build: {
-            files: [{
-              expand: true, // Enable dynamic expansion.
-              src: ['build/js/*.js', '!build/js/*.min.js'], // Actual pattern(s) to match.
-              ext: '.min.js', // Dest filepaths will have this extension.
-            }, ]
-          }
-        },
-        jshint: {
-          options: {
-            reporter: require('jshint-stylish'),
-            globals: {
-              "EO_SCRIPT_DEBUG": false,
-            },
-            '-W020': true, //Read only - error when assigning EO_SCRIPT_DEBUG a value.
-          },
-          all: ['build/js/*.js', '!build/js/*.min.js']
-        },
 
         usebanner: {
             main: {

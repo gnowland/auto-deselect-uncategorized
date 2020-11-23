@@ -43,6 +43,10 @@ https://www.youtube.com/watch?v=LDZCqY7H-pQ
 
 ## Frequently Asked Questions ##
 
+### Are there any settings? ###
+
+The plugin automatically targets the "Categories" taxonomy and uses the "Default Post Category" that's set in Settings > Writing.
+
 ## Development ##
 
 Contributions in the way of [Pull Requests](https://github.com/gnowland/auto-deselect-uncategorized/pulls) are welcome. Please follow the WordPress.org Block Editor Handbook [Development Environment](https://developer.wordpress.org/block-editor/tutorials/devenv/) setup and familiarize yourself with the [JS Build Setup](https://developer.wordpress.org/block-editor/tutorials/javascript/js-build-setup/) instructions and [Coding Guidelines](https://developer.wordpress.org/block-editor/contributors/develop/coding-guidelines/).

@@ -10,6 +10,7 @@
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 
 Automatically deselect the "Uncategorized" category (or your default category) when another is selected; select it when no others are selected.
+
 ## Description ##
 
 Automatically and visibly deselect the "Uncategorized" category (or your custom default post category) when another category is selected, and select it when no other categories are selected. Supports the WordPress 5.0+ Block Editor (Gutenberg).
@@ -28,7 +29,7 @@ Support is handled in the [WordPress forums](http://wordpress.org/support/plugin
 
 Please report any bugs, errors, warnings, code problems on [GitHub](https://github.com/gnowland/auto-deselect-uncategorized/issues).
 
-## Video Demo ##
+## Video ##
 
 https://www.youtube.com/watch?v=LDZCqY7H-pQ
 
@@ -60,7 +61,7 @@ npm run start
 
 ### Release ###
 
-1. Update Changelog in `README.md`
+1. Update Changelog in `README.txt`
 2. Bump version in `package.json`
 3. Run release script:
 

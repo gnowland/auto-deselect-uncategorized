@@ -69,6 +69,16 @@ npm run start
    npm run release
    ```
 
+### Clean ###
+
+WARNING: Destructive!
+
+- Destroys test WordPress Docker container and removes build folder:
+
+```shell
+npm run destroy
+```
+
 ## Changelog ##
 
 ### 1.0 ###

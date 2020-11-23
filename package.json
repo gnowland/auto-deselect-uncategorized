@@ -14,7 +14,8 @@
   "scripts": {
     "start": "wp-scripts start --webpack--devtool=source-map",
     "build": "wp-scripts build",
-    "release": "grunt clean && wp-scripts build && grunt release"
+    "release": "grunt clean && wp-scripts build && grunt release",
+    "destroy": "grunt clean && wp-env destroy"
   },
   "devDependencies": {
     "@wordpress/scripts": "12.5.0",

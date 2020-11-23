@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "wp-env start && npm start",
     "start": "wp-scripts start --webpack--devtool=source-map",
+    "stop": "wp-env stop",
     "build": "wp-scripts build",
     "release": "grunt clean && wp-scripts build && grunt release",
     "destroy": "grunt clean && wp-env destroy"

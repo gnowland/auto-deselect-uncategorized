@@ -74,7 +74,7 @@ npm run dev
 
 WARNING: Destructive!
 
-- Destroys test WordPress Docker container and removes build folder:
+- Destroys test WordPress Docker container and removes build folder
 
 ```shell
 npm run destroy

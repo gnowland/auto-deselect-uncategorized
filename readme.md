@@ -56,9 +56,13 @@ npm run start
 
 ### Release ###
 
-```shell
-npm run release
-```
+1. Update Changelog in `README.md`
+2. Bump version in `package.json`
+3. Run release script:
+
+   ```shell
+   npm run release
+   ```
 
 ## Changelog ##
 

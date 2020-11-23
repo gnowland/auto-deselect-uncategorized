@@ -12,6 +12,7 @@
     "url": "https://github.com/gnowland/auto-deselect-uncategorized/issues"
   },
   "scripts": {
+    "dev": "wp-env start && npm start",
     "start": "wp-scripts start --webpack--devtool=source-map",
     "build": "wp-scripts build",
     "release": "grunt clean && wp-scripts build && grunt release",

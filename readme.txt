@@ -54,9 +54,10 @@ Contributions in the way of [Pull Requests](https://github.com/gnowland/auto-des
 
 = Develop =
 
+- Starts test WordPress Docker container
+
 ```shell
-wp-env start
-npm run start
+npm run dev
 ```
 
 = Release =

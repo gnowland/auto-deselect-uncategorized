@@ -1,7 +1,7 @@
 # Auto-Deselect Uncategorized #
 **Contributors:** [gnowland](https://profiles.wordpress.org/gnowland)  
 **Donate link:** https://buymeacoff.ee/gnowland  
-**Tags:** taxonomy, taxonomies, terms, catagory, uncategorized, deuncategorize, deselect uncategorized, admin, editor, block editor, gutenberg, react, interface, ui, post, metabox  
+**Tags:** taxonomy, taxonomies, terms, category, uncategorized, deuncategorize, deselect uncategorized, admin, editor, block editor, gutenberg, react, interface, ui, post, metabox  
 **Requires at least:** 5.0.0  
 **Tested up to:** 5.5.3  
 **Stable tag:** 1.0.0  

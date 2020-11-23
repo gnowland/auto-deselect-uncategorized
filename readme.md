@@ -43,6 +43,23 @@ https://www.youtube.com/watch?v=LDZCqY7H-pQ
 
 ## Frequently Asked Questions ##
 
+## Development ##
+
+Contributions in the way of [Pull Requests](https://github.com/gnowland/auto-deselect-uncategorized/pulls) are welcome. Please follow the WordPress.org Block Editor Handbook [Development Environment](https://developer.wordpress.org/block-editor/tutorials/devenv/) setup and familiarize yourself with the [JS Build Setup](https://developer.wordpress.org/block-editor/tutorials/javascript/js-build-setup/) instructions and [Coding Guidelines](https://developer.wordpress.org/block-editor/contributors/develop/coding-guidelines/).
+
+### Develop ###
+
+```shell
+wp-env start
+npm run start
+```
+
+### Release ###
+
+```shell
+npm run release
+```
+
 ## Changelog ##
 
 ### 1.0 ###

@@ -1,13 +1,13 @@
 === Auto-Deselect Uncategorized ===
-**Contributors:** gnowland  
-**Donate link:** https://buymeacoff.ee/gnowland  
-**Tags:** taxonomy, taxonomies, terms, category, uncategorized, deuncategorize, deselect uncategorized, admin, editor, block editor, gutenberg, react, interface, ui, post, metabox  
-**Requires at least:** 5.0.0  
-**Tested up to:** 5.5.3  
-**Stable tag:** 1.0.0  
-**Requires PHP:** 5.6.0  
-**License:** GPLv3 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
+Contributors: gnowland  
+Donate link: https://buymeacoff.ee/gnowland  
+Tags: taxonomy, taxonomies, terms, category, uncategorized, deuncategorize, deselect uncategorized, admin, editor, block editor, gutenberg, react, interface, ui, post, metabox  
+Requires at least: 5.0.0  
+Tested up to: 5.5.3  
+Stable tag: 1.0.0  
+Requires PHP: 5.6.0  
+License: GPLv3 or later  
+License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
 Automatically deselect the "Uncategorized" category (or your default category) when another is selected; select it when no others are selected.
 

@@ -27,9 +27,9 @@ To prevent the Uncategorized category from being attached to posts that are cate
 
 Support is handled in the [WordPress forums](http://wordpress.org/support/plugin/auto-deselect-uncategorized). Please note that support is limited and does not cover any custom implementation of the plugin. Before posting a question, please confirm that the problem still exists with a default theme and with all other plugins disabled.
 
-Please report any bugs, errors, warnings, code problems on [GitHub](https://github.com/gnowland/auto-deselect-uncategorized/issues).
+Please report any bugs, errors, warnings, or code issues on [GitHub](https://github.com/gnowland/auto-deselect-uncategorized/issues).
 
-## Video ##
+## Video Demonstration ##
 
 https://www.youtube.com/watch?v=LDZCqY7H-pQ
 
@@ -52,3 +52,7 @@ The plugin automatically targets the "Categories" taxonomy and uses the "Default
 
 ### 1.0 ###
 * Initial release
+
+## Upgrade Notice ##
+
+There are no upgrade notices at this time.

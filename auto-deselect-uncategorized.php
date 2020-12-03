@@ -12,7 +12,7 @@
  * Plugin Name:         Auto-Deselect Uncategorized
  * Plugin URI:          https://github.com/gnowland/auto-deselect-uncategorized/
  * Description:         Automatically deselect the "Uncategorized" category (or your custom default post category) when another category is selected, and select it when no other categories are selected.
- * Version:             1.0.0
+ * Version:             1.0.1
  *
  * Requires at least:    5.0
  * Requires PHP:        5.6
@@ -48,7 +48,7 @@ class Auto_Deselect_Uncategorized {
     protected static $_instance = null;
 
     /* @var str $version */
-    public static $version = '1.0.0';
+    public static $version = '1.0.1';
 
     /**
      * Main Auto_Deselect_Uncategorized Instance

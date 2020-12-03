@@ -22,6 +22,7 @@ composer.lock
 .editorconfig
 .eslintrc.json
 .gitignore
+.npmrc
 Gruntfile.js
 multisite.xml
 multisite.xml.dist

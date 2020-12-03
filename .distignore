@@ -27,7 +27,6 @@ multisite.xml
 multisite.xml.dist
 package.json
 package-lock.json
-pnpm-lock.yaml
 phpcs.ruleset.xml
 phpunit.xml
 phpunit.xml.dist

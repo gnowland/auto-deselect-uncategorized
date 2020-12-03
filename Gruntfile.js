@@ -10,6 +10,13 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        copyTargets: ['**', '!**/*~'].concat(
+            // 1. Get `.distignore` file as a string
+            // 2. add `!` to beginning of every line
+            // 3. add `**` after a `/` occuring at the end of a line
+            // 4. return as an array
+            grunt.file.read('.distignore').toString().trim().replace(/^/gm, "!").replace(/\/$/gm, "/**").split("\n")
+        ),
 
         usebanner: {
             main: {
@@ -32,30 +39,7 @@ module.exports = function(grunt) {
         // Copy the plugin into the build directory
         copy: {
             main: {
-                src: [
-                '**',
-                '!**/*~',
-                '!.git/**',
-                '!build/**',
-                '!js/**',
-                '!*.lock',
-                '!.distignore',
-                '!.editorconfig',
-                '!.eslintrc.json',
-                '!.gitattributes',
-                // '!.gitcreds',
-                '!.gitignore',
-                '!.travis.yml',
-                '!composer.json',
-                '!Gruntfile.js',
-                // '!gitcreds.json',
-                '!LICENSE.txt',
-                '!node_modules/**',
-                '!package.json',
-                '!README.md',
-                // '!.transifexrc',
-                '!webpack.config.js',
-                ],
+                src: '<%= copyTargets %>',
                 dest: 'build/'
             },
             save: {

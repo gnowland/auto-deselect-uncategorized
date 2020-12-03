@@ -20,9 +20,12 @@ The following script actions are available:
 
     ✳️ Before running `npm run release`, remember to first:
 
-    1. Update the Changelog in `README.txt`
+    1. Update the Changelog in `readme.txt`
     2. Bump the version in `package.json`
     3. *Then* run `npm run release`
+    4. Commit changes
+    5. Add `git tag v`+1
+    6. `git push --tags`
 
 - `npm run destroy`
 

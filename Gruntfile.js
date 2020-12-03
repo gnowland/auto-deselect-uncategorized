@@ -33,7 +33,8 @@ module.exports = function(grunt) {
 
         // Remove the build directory files
         clean: {
-           main: ['build/**', 'js/index.asset.php']
+           main: ['build/**'],
+           save: ['js/index.asset.php']
         },
 
         // Copy the plugin into the build directory

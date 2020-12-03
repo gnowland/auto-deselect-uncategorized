@@ -17,7 +17,7 @@
     "stop": "wp-env stop",
     "build": "wp-scripts build",
     "release": "grunt clean && npm run build && grunt release",
-    "destroy": "grunt clean && wp-env destroy"
+    "destroy": "grunt clean:main && wp-env destroy"
   },
   "devDependencies": {
     "@wordpress/scripts": "12.5.0",

@@ -4,7 +4,7 @@
 **Tags:** taxonomy, category, uncategorized, deuncategorize, deselect, uncheck, deselect uncategorized, uncheck uncategorized, admin, editor, block editor, gutenberg, post, taxonomies, terms  
 **Requires at least:** 5.0.0  
 **Tested up to:** 5.5.3  
-**Stable tag:** 1.0.2  
+**Stable tag:** 1.0.3  
 **Requires PHP:** 5.6.0  
 **License:** GPLv3 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
@@ -49,6 +49,9 @@ https://www.youtube.com/watch?v=LDZCqY7H-pQ
 The plugin automatically targets the "Categories" taxonomy and uses the "Default Post Category" that's set in Settings > Writing.
 
 ## Changelog ##
+
+### 1.0.3 ###
+* Reorganize plugin tags
 
 ### 1.0.2 ###
 * Update readme (short description & tags)

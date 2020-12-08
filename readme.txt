@@ -1,7 +1,7 @@
 === Auto-Deselect Uncategorized ===
 Contributors: gnowland
 Donate link: https://buymeacoff.ee/gnowland
-Tags: taxonomy, taxonomies, terms, category, uncategorized, deuncategorize, deselect, uncheck, deselect uncategorized, uncheck uncategorized, admin, editor, block editor, gutenberg, post
+Tags: taxonomy, category, uncategorized, deuncategorize, deselect, uncheck, deselect uncategorized, uncheck uncategorized, admin, editor, block editor, gutenberg, post, taxonomies, terms
 Requires at least: 5.0.0
 Tested up to: 5.5.3
 Stable tag: 1.0.2

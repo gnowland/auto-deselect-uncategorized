@@ -1,7 +1,7 @@
 {
   "name": "auto-deselect-uncategorized",
   "author": "gnowland",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically and visibly deselect the \"Uncategorized\" category (or your custom default post category) when another category is selected, and select it when no other categories are selected. Supports WordPress 5.0+ Block Editor (Gutenberg).",
   "repository": {
     "type": "git",

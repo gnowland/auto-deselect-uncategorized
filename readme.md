@@ -1,7 +1,7 @@
 # Auto-Deselect Uncategorized #
 **Contributors:** [gnowland](https://profiles.wordpress.org/gnowland)  
 **Donate link:** https://buymeacoff.ee/gnowland  
-**Tags:** taxonomy, taxonomies, terms, category, uncategorized, deuncategorize, deselect uncategorized, admin, editor, block editor, gutenberg, react, interface, ui, post, metabox  
+**Tags:** taxonomy, taxonomies, terms, category, uncategorized, deuncategorize, deselect, uncheck, deselect uncategorized, uncheck uncategorized, admin, editor, block editor, gutenberg, post  
 **Requires at least:** 5.0.0  
 **Tested up to:** 5.5.3  
 **Stable tag:** 1.0.1  
@@ -9,7 +9,7 @@
 **License:** GPLv3 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 
-Automatically deselect the "Uncategorized" category (or your default category) when another is selected; select it when no others are selected.
+Deselect "Uncategorized" (or your chosen "default category") when others are selected; re-select it when no others are. Gutenberg-ready.
 
 ## Description ##
 
